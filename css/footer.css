@@ -1,0 +1,99 @@
+.footer {
+    width: 100%;
+    background-color: var(--footer__gray);
+    height: 564px;
+}
+.wraper_footer {
+    padding-top: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer__about {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+}
+.footer__about__p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 180%;
+    color: var(--dark__gray);
+    margin: 20px 0 30px 0;
+}
+.footer__about__social {
+    width: 141px;
+    height: 34px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.social__facebook {
+    background-image: url('../icons/Facebook.svg');
+    height: 34px;
+    width: 34px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.social__facebook:hover {
+    cursor: pointer;
+}
+.social__twitter {
+    background-image: url('../icons/Twitter.svg');
+    height: 34px;
+    width: 34px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.social__twitter:hover {
+    cursor: pointer;
+}
+.social__instagram {
+    background-image: url('../icons/Instagram.svg');
+    height: 34px;
+    width: 34px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.social__instagram:hover {
+    cursor: pointer;
+}
+.footer__about__rights_p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 180%;
+    color: var(--border__gray);
+    margin: 20px 0 30px 0;
+}
+.footer__links {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.footer__links__wraper {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+.footer__links__wraper__h3 {
+    font-size: 18px;
+    line-height: 160%;
+    color: var(--dark__blue);
+    text-decoration: none;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.links__product__a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--dark__gray);
+    margin-top: 10px;
+    cursor: pointer;
+}
+.links__product__a:hover {
+    color: var(--red__color);
+}
