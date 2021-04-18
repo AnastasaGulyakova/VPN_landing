@@ -1,0 +1,112 @@
+.logo {
+    background-image: url('https://a.lmcdn.ru/django/d/ru/21.02.20_1/i/global/header__logo.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    height: 50px;
+    width: 100px;
+    margin-left: 32px;
+    margin-top: 32px;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 32px;
+    color: #333;
+}
+.flex_wrapper {
+    width: 992px;
+    margin: 16px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+a {
+    text-decoration: none;
+}
+.card {
+    width: 236px;
+    height: 462px;
+    background-color: white;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+.flex_wrapper button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color:rgb(255, 255, 255);
+    background-color: #2796FF;
+    border: #2796FF;
+    height: 32px;
+    box-shadow: 0 2px 8px 0 rgba(39,150,255,.6);
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 8px;
+    border-radius: 2px;
+}
+.flex_wrapper button:hover {
+    background-color: #0060d2;
+}
+.flex_wrapper .card:hover {
+    box-shadow: 0 8px 24px 0 rgba(240, 240, 240, 0.6);
+}
+
+img {
+    padding: 8px;
+}
+.price {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 8px;
+    color: black;
+}
+.desc {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    margin-left: 8px;
+    color: #333;
+}
+
+@font-face {
+	font-family: 'CoFoSansBlack'; 
+    font-style: normal;
+	font-weight: normal;
+	src: local('CoFoSansBlack'),
+		url(/font/CoFoSansBlack.ttf);
+}
+@font-face {
+    font-family: 'CoFoSansBold'; 
+    font-style: normal;
+	font-weight: normal;
+    src: local('CoFoSansBold'),
+		url(/font/CoFoSansBold.ttf);
+}
+@font-face {
+    font-family: 'CoFoSansMedium'; 
+    font-style: normal;
+	font-weight: normal;
+    src: local('CoFoSansMedium'),
+		url(/font/CoFoSansMedium.ttf); 
+}
+@font-face {
+    font-family: 'CoFoSansRegular'; 
+    font-style: normal;
+	font-weight: normal;
+    src: local('CoFoSansRegular'),
+		url(/font/CoFoSansRegular.ttf); 
+}
+
+
+
+
+

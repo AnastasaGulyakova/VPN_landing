@@ -1,0 +1,109 @@
+.plan_wraper {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 72px;
+}
+.plan_network__h1 {
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.plan_network_wraper__p {
+    width: 555px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--dark__gray);
+    margin: 20px auto 60px auto;
+}
+.plan_wraper__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 330px);
+    gap: 50px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+.plan_wraper__card {
+    display: grid;
+    grid-template-rows: 246px 60px 260px 80px 114px;
+    height: 760px;
+    border: var(--border__gray) 2px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+    transition: all 0.5s;
+}
+.plan_wraper__card:hover  {
+    box-shadow: 0 70px 114px rgba(13,16,37,0.06);
+}
+.plan_wraper__card_selected {
+    border: var(--red__color) 2px solid;
+}
+.plan_wraper__cards__img {
+    background-image: url('../img/plan_gift.svg');
+    height: 166px;
+    width: 145px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 80px auto 0 auto;
+}
+.plan_wraper__cards__p {
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: var(--dark__blue);
+}
+.plan_wraper__cards__advan {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto 0px auto;
+}
+.wrapper__advan {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+.wrapper__advan__img {
+    background-image: url('../icons/plan_ok.svg');
+    height: 24px;
+    width: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+}
+.wrapper__advan__p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--dark__gray);
+}
+.plan_wraper__cost {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    color: var(--dark__blue);
+    margin-top: 50px;
+}
+.plan_wraper__btn {
+    margin-top: 20px;
+    color: var(--red__color);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 13px 63px;
+    background-color: white;
+    border: var(--red__color) 2px solid;
+    border-radius: 45px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.plan_wraper__btn_selected {
+    color: white;
+    background-color:var(--red__color);
+    box-shadow: 0 17px 54px rgba(245,56,56,0.35);
+}

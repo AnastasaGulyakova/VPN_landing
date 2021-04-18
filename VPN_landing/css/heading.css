@@ -1,0 +1,8 @@
+.main_heading {
+    font-family: var(--default__font);
+    font-size: 35px;
+    line-height: 50px;
+    width: 383px;
+    font-weight: 500px;
+    color: var(--dark__blue);
+}

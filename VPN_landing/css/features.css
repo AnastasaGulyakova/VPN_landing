@@ -1,0 +1,49 @@
+.features {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-bottom: 126px;
+}
+.features__img {
+    background-image: url('../img/features_img.svg');
+    height: 414px;
+    width: 508px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 35px;
+}
+.features_wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 168px;
+}
+.features_wrapper__p {
+    width: 390px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--dark__gray);
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.features_wrapper__advantage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+}
+.features_wrapper__advantage__img {
+    background-image: url('../icons/ok.svg');
+    height: 24px;
+    width: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+.features_wrapper__advantage__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--dark__gray);
+
+}

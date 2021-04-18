@@ -1,0 +1,24 @@
+:root {
+    --dark__blue: #0B132A;
+    --dark__gray: #4F5665;
+    --light__gray: #EEEFF2;
+    --border__gray: #DDDDDD;
+    --pag__gray: #DDE0E4;
+    --footer__gray: #F8F8F8;
+    --bcg__gray: #FBFBFB;
+    --red__color: #F53838;
+    --light__pink: #FFECEC;
+    --default__font: 'Rubik', sans-serif;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1140px;
+    margin-left:auto;
+    margin-right: auto;
+    font-family: var(--default__font);
+}
+.plan_network_wraper {
+    width: 100%;
+    background: linear-gradient(180deg, #F8F8F8, #ffffff);
+}
