@@ -97,3 +97,35 @@ function updateSliderArrowsStatus(
       }
     });
   });
+
+  var modal = document.getElementById('myModal');
+  var div_open = document.getElementById("myBtn");
+  var div_close = document.getElementsByClassName("btn_close")[0];
+
+  div_open.onclick = function() {
+    modal.style.display = "block";
+    document.body.style.position = 'fixed';
+    document.body.style.top = `-${window.scrollY}px`;
+  }
+
+  div_close.onclick = function() {
+    modal.style.display = "none";
+    document.body.style.position = '';
+    document.body.style.top = '';
+  }
+
+  //window.onclick = function(event) {
+  //  if (event.target == modal) {
+  //    modal.style.display = "none";
+  //  }
+  //}
+
+  
+
+  //var div = document.getElementById("myBtn");
+  //div.onclick = function (e) {
+  //var e = e || window.event;
+  //var target = e.target || e.srcElement;
+  //if (this == target) alert("Вместо меня должно стоять модальное окно");
+  //}
+
